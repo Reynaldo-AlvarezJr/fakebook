@@ -1,0 +1,28 @@
+.login > div > img{
+  object-fit:contain;
+  height:150px;
+}
+
+.login > div {
+  display:flex;
+  flex-direction:column;
+}
+
+.login{
+  display:grid;
+  place-items: center;
+  height:100vh;
+}
+
+.login > button{
+  width:18.75rem;
+  background-color:var(--fb-blue);
+  color:var(--white);
+  font-weight:50rem;
+
+}
+
+.login > button:hover{
+  background-color:var(--grey4);
+  color:var(--fb-blue);
+}

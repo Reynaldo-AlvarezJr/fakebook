@@ -1,0 +1,8 @@
+.widgets_section {
+  margin-right: 10px;
+}
+
+.widgets_section > .widgets > iframe {
+  margin-top: 10px;
+  padding: 10px 20px;
+}

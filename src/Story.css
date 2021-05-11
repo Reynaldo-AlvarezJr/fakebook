@@ -1,0 +1,30 @@
+.story{
+  position:relative;
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:7.5rem;
+  height:12.5rem;
+  box-shadow:0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  border-radius:.6rem;
+  margin-right:.6rem;
+  transition:transform 100ms ease-in;
+  cursor:pointer;
+}
+
+.story:hover{
+  transform:scale(1.07);
+
+}
+
+.story__avatar{
+  margin:.6rem;
+  border:.25rem solid var(--fb-blue);
+}
+
+.story > h4{
+  position:absolute;
+  bottom:1.25rem;
+  left:1.25rem;
+  color:var(--white);
+}
